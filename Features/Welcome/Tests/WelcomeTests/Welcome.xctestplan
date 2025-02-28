@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "58073413-DDF7-40DE-A1FC-BABD0AF29E83",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "WelcomeTests",
+        "name" : "WelcomeTests"
+      }
+    }
+  ],
+  "version" : 1
+}

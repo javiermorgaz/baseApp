@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "5D0F7440-5EA4-451B-945F-30E839AFFDDE",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "RegisterTests",
+        "name" : "RegisterTests"
+      }
+    }
+  ],
+  "version" : 1
+}
