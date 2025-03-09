@@ -4,9 +4,9 @@ import DesignSystem
 
 public struct Feature2Screen: View {
 
-    @Bindable var store: Store<Feature2Feature.State, Feature2Feature.Action>
+    @Bindable var store: StoreOf<Feature2Feature>
 
-    public init(store: Store<Feature2Feature.State, Feature2Feature.Action>) {
+    public init(store: StoreOf<Feature2Feature>) {
         self.store = store
     }
 
