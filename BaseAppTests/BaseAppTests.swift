@@ -4,6 +4,7 @@ import NetworkProtocols
 import OrderedCollections
 import SessionProtocols
 import Network
+import Foundation
 
 @testable import BaseApp
 
@@ -14,7 +15,7 @@ struct BaseAppTests {
         let store = TestStore(initialState: AppFeature.State(),
                               reducer: { AppFeature() },
                               withDependencies: {
-            $0.coreDependencies = getCoreDependencies()
+                $0.coreDependencies = getCoreDependencies()
             $0.coreDependencies.authenticationService.isAuthenticated = { return }
         })
         
