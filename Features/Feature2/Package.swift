@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "Feature2",
-    platforms: [.iOS(.v17)],
+    platforms: [.iOS(.v18)],
     products: [
         .library(
             name: "Feature2",
@@ -18,8 +18,8 @@ let package = Package(
                  path: "../FeatureComposition"),
         .package(name: "SessionProtocols",
                  path: "../SessionProtocols"),
-        .package(name: "NetworkProtocols",
-                 path: "../NetworkProtocols"),
+        .package(name: "NetworkingProtocols",
+                 path: "../NetworkingProtocols"),
         .package(name: "DesignSystem",
                  path: "../DesignSystem"),
         .package(name: "ViewTesting",
@@ -34,8 +34,8 @@ let package = Package(
                                     package: "FeatureComposition"),
                            .product(name: "SessionProtocols",
                                     package: "SessionProtocols"),
-                           .product(name: "NetworkProtocols",
-                                    package: "NetworkProtocols"),
+                           .product(name: "NetworkingProtocols",
+                                    package: "NetworkingProtocols"),
                            .product(name: "DesignSystem",
                                     package: "DesignSystem")]
         ),

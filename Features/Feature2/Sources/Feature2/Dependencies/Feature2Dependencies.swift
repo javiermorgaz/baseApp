@@ -1,5 +1,5 @@
 import Dependencies
-import NetworkProtocols
+import NetworkingProtocols
 
 public struct Feature2Dependencies: Sendable {
     var authenticationService: AuthenticationServiceProtocol

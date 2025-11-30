@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "Error",
-    platforms: [.iOS(.v17)],
+    platforms: [.iOS(.v18)],
     products: [
         .library(
             name: "Error",
@@ -23,7 +23,7 @@ let package = Package(
             dependencies: [.product(name: "FeatureComposition",
                                     package: "FeatureComposition"),
                            .product(name: "DesignSystem",
-                                                   package: "DesignSystem")]
+                                    package: "DesignSystem")]
         )
     ]
 )

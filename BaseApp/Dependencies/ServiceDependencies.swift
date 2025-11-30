@@ -1,6 +1,6 @@
 import Dependencies
-import Network
-import NetworkProtocols
+import Networking
+import NetworkingProtocols
 import Session
 import SessionProtocols
 

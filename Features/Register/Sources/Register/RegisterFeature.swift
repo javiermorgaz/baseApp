@@ -1,7 +1,7 @@
 import ComposableArchitecture
 import Dependencies
 import Extensions
-import NetworkProtocols
+import NetworkingProtocols
 import Strings
 
 @Reducer

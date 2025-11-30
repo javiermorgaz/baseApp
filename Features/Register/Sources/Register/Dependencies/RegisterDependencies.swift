@@ -1,5 +1,5 @@
 import Dependencies
-import NetworkProtocols
+import NetworkingProtocols
 
 public struct RegisterDependencies: Sendable {
     var authenticationService: AuthenticationServiceProtocol

@@ -1,5 +1,5 @@
 import ComposableArchitecture
-import NetworkProtocols
+import NetworkingProtocols
 import Extensions
 import Error
 import Strings

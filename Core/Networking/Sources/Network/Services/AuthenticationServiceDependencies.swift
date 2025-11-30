@@ -1,5 +1,5 @@
 import Dependencies
-import NetworkProtocols
+import NetworkingProtocols
 import SessionProtocols
 
 public struct AuthenticationServiceDependencies: Sendable {

@@ -1,6 +1,6 @@
 import Dependencies
 import SessionProtocols
-import NetworkProtocols
+import NetworkingProtocols
 
 public struct WelcomeDependencies: Sendable {
     var authenticationService: AuthenticationServiceProtocol

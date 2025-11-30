@@ -1,5 +1,5 @@
 import Foundation
-import NetworkProtocols
+import NetworkingProtocols
 import SessionProtocols
 
 public struct APIRequest: APIRequestProtocol {

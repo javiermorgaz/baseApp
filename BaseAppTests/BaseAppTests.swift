@@ -1,9 +1,9 @@
 import Testing
 import ComposableArchitecture
-import NetworkProtocols
+import NetworkingProtocols
 import OrderedCollections
 import SessionProtocols
-import Network
+import Networking
 import Foundation
 
 @testable import BaseApp

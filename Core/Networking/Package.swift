@@ -4,16 +4,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "Network",
-    platforms: [.iOS(.v17)],
+    name: "Networking",
+    platforms: [.iOS(.v18)],
     products: [
         .library(
-            name: "Network",
-            targets: ["Network"]),
+            name: "Networking",
+            targets: ["Networking"]),
     ],
     dependencies: [
-        .package(name: "NetworkProtocols",
-                 path: "../NetworkProtocols"),
+        .package(name: "NetworkingProtocols",
+                 path: "../NetworkingProtocols"),
         .package(name: "SessionProtocols",
                  path: "../SessionProtocols"),
         .package(name: "DependenciesContainer",
@@ -21,17 +21,17 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "Network",
-            dependencies: [.product(name: "NetworkProtocols",
-                                    package: "NetworkProtocols"),
+            name: "Networking",
+            dependencies: [.product(name: "NetworkingProtocols",
+                                    package: "NetworkingProtocols"),
                            .product(name: "SessionProtocols",
                                     package: "SessionProtocols"),
                            .product(name: "DependenciesContainer",
                                     package: "DependenciesContainer")]
         ),
         .testTarget(
-            name: "NetworkTests",
-            dependencies: ["Network"]
+            name: "NetworkingTests",
+            dependencies: ["Networking"]
         ),
     ]
 )

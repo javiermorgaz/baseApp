@@ -12,8 +12,8 @@
 		3971D3812D3D164C004D5CB0 /* Error in Frameworks */ = {isa = PBXBuildFile; productRef = 3971D3802D3D164C004D5CB0 /* Error */; };
 		3971D3832D3D164C004D5CB0 /* Extensions in Frameworks */ = {isa = PBXBuildFile; productRef = 3971D3822D3D164C004D5CB0 /* Extensions */; };
 		3971D3852D3D164C004D5CB0 /* FeatureComposition in Frameworks */ = {isa = PBXBuildFile; productRef = 3971D3842D3D164C004D5CB0 /* FeatureComposition */; };
-		3971D3872D3D164C004D5CB0 /* Network in Frameworks */ = {isa = PBXBuildFile; productRef = 3971D3862D3D164C004D5CB0 /* Network */; };
-		3971D3892D3D164C004D5CB0 /* NetworkProtocols in Frameworks */ = {isa = PBXBuildFile; productRef = 3971D3882D3D164C004D5CB0 /* NetworkProtocols */; };
+		3971D3872D3D164C004D5CB0 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 3971D3862D3D164C004D5CB0 /* Networking */; };
+		3971D3892D3D164C004D5CB0 /* NetworkingProtocols in Frameworks */ = {isa = PBXBuildFile; productRef = 3971D3882D3D164C004D5CB0 /* NetworkingProtocols */; };
 		3971D38B2D3D164C004D5CB0 /* Session in Frameworks */ = {isa = PBXBuildFile; productRef = 3971D38A2D3D164C004D5CB0 /* Session */; };
 		3971D38D2D3D164C004D5CB0 /* SessionProtocols in Frameworks */ = {isa = PBXBuildFile; productRef = 3971D38C2D3D164C004D5CB0 /* SessionProtocols */; };
 		3971D38F2D3D1653004D5CB0 /* ViewTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 3971D38E2D3D1653004D5CB0 /* ViewTesting */; };
@@ -49,8 +49,8 @@
 		39C102C32D3D111D005D5B10 /* DesignSystem */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DesignSystem; sourceTree = "<group>"; };
 		39C102C42D3D111D005D5B10 /* Error */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Error; sourceTree = "<group>"; };
 		39C102C52D3D111D005D5B10 /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Extensions; sourceTree = "<group>"; };
-		39C102C62D3D111D005D5B10 /* Network */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Network; sourceTree = "<group>"; };
-		39C102C72D3D111D005D5B10 /* NetworkProtocols */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = NetworkProtocols; sourceTree = "<group>"; };
+		39C102C62D3D111D005D5B10 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
+		39C102C72D3D111D005D5B10 /* NetworkingProtocols */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = NetworkingProtocols; sourceTree = "<group>"; };
 		39C102C82D3D111D005D5B10 /* Session */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Session; sourceTree = "<group>"; };
 		39C102C92D3D111D005D5B10 /* SessionProtocols */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SessionProtocols; sourceTree = "<group>"; };
 		39E008812D3D1A6700EB3E9D /* Register */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Register; sourceTree = "<group>"; };
@@ -102,10 +102,10 @@
 				39C102C02D3D10EC005D5B10 /* DesignSystem in Frameworks */,
 				3971D38B2D3D164C004D5CB0 /* Session in Frameworks */,
 				39172B202D3D6101006F7967 /* Feature2 in Frameworks */,
-				3971D3872D3D164C004D5CB0 /* Network in Frameworks */,
+				3971D3872D3D164C004D5CB0 /* Networking in Frameworks */,
 				39E008882D3D1A9700EB3E9D /* Welcome in Frameworks */,
 				3971D38D2D3D164C004D5CB0 /* SessionProtocols in Frameworks */,
-				3971D3892D3D164C004D5CB0 /* NetworkProtocols in Frameworks */,
+				3971D3892D3D164C004D5CB0 /* NetworkingProtocols in Frameworks */,
 				39E0088A2D3D1A9D00EB3E9D /* Register in Frameworks */,
 				39E008C92D3D1DC900EB3E9D /* Feature1 in Frameworks */,
 				3971D3832D3D164C004D5CB0 /* Extensions in Frameworks */,
@@ -155,8 +155,8 @@
 				39C102C32D3D111D005D5B10 /* DesignSystem */,
 				39C102C42D3D111D005D5B10 /* Error */,
 				39C102C52D3D111D005D5B10 /* Extensions */,
-				39C102C62D3D111D005D5B10 /* Network */,
-				39C102C72D3D111D005D5B10 /* NetworkProtocols */,
+				39C102C62D3D111D005D5B10 /* Networking */,
+				39C102C72D3D111D005D5B10 /* NetworkingProtocols */,
 				39C102C82D3D111D005D5B10 /* Session */,
 				39C102C92D3D111D005D5B10 /* SessionProtocols */,
 			);
@@ -223,8 +223,8 @@
 				3971D3802D3D164C004D5CB0 /* Error */,
 				3971D3822D3D164C004D5CB0 /* Extensions */,
 				3971D3842D3D164C004D5CB0 /* FeatureComposition */,
-				3971D3862D3D164C004D5CB0 /* Network */,
-				3971D3882D3D164C004D5CB0 /* NetworkProtocols */,
+				3971D3862D3D164C004D5CB0 /* Networking */,
+				3971D3882D3D164C004D5CB0 /* NetworkingProtocols */,
 				3971D38A2D3D164C004D5CB0 /* Session */,
 				3971D38C2D3D164C004D5CB0 /* SessionProtocols */,
 				39E008872D3D1A9700EB3E9D /* Welcome */,
@@ -526,7 +526,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -556,7 +556,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -577,7 +577,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.BaseAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -595,7 +595,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.BaseAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -612,6 +612,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.BaseAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -628,6 +629,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.BaseAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -700,13 +702,13 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = FeatureComposition;
 		};
-		3971D3862D3D164C004D5CB0 /* Network */ = {
+		3971D3862D3D164C004D5CB0 /* Networking */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = Network;
+			productName = Networking;
 		};
-		3971D3882D3D164C004D5CB0 /* NetworkProtocols */ = {
+		3971D3882D3D164C004D5CB0 /* NetworkingProtocols */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = NetworkProtocols;
+			productName = NetworkingProtocols;
 		};
 		3971D38A2D3D164C004D5CB0 /* Session */ = {
 			isa = XCSwiftPackageProductDependency;

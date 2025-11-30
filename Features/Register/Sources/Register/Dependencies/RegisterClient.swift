@@ -1,6 +1,6 @@
 import Dependencies
 import Foundation
-import NetworkProtocols
+import NetworkingProtocols
 
 struct RegisterClient: Sendable {
     var createUser: @Sendable (_ email: String, _ password: String, _ phone: String) async throws(AuthenticationServiceError) -> Void

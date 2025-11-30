@@ -1,6 +1,6 @@
 import Foundation
 import Dependencies
-import NetworkProtocols
+import NetworkingProtocols
 import SessionProtocols
 
 public struct AuthenticationService: AuthenticationServiceProtocol {

@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "DependenciesContainer",
-    platforms: [.iOS(.v17)],
+    platforms: [.iOS(.v18)],
     products: [
         .library(
             name: "DependenciesContainer",
@@ -14,7 +14,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/pointfreeco/swift-dependencies",
-            exact: "1.6.3"
+            exact: "1.10.0"
         )
     ],
     targets: [

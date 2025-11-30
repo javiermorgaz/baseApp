@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "FeatureComposition",
-    platforms: [.iOS(.v17)],
+    platforms: [.iOS(.v18)],
     products: [
         .library(
             name: "FeatureComposition",
@@ -14,7 +14,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/pointfreeco/swift-composable-architecture",
-            exact: "1.17.1"
+            exact: "1.23.1"
         )
     ],
     targets: [

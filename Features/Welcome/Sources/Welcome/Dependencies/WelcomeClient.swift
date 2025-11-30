@@ -1,5 +1,5 @@
 import Dependencies
-import NetworkProtocols
+import NetworkingProtocols
 
 struct WelcomeClient: Sendable {
     var loginUser: @Sendable (_ email: String, _ password: String) async throws(AuthenticationServiceError) -> Void

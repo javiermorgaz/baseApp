@@ -4,17 +4,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "NetworkProtocols",
-    platforms: [.iOS(.v17)],
+    name: "NetworkingProtocols",
+    platforms: [.iOS(.v18)],
     products: [
         .library(
-            name: "NetworkProtocols",
-            targets: ["NetworkProtocols"]),
+            name: "NetworkingProtocols",
+            targets: ["NetworkingProtocols"]),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "NetworkProtocols"
+            name: "NetworkingProtocols"
         )
     ]
 )
